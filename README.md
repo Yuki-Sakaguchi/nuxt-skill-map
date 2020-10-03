@@ -1,6 +1,9 @@
 # nuxt-skill-map
 Nuxt.jsで作るスキルマップ
 
+## DEMO
+https://yuki-sakaguchi.github.io/nuxt-skill-map/
+
 ## 開発手順
 
 ```bash
@@ -10,10 +13,9 @@ $ npm run dev
 ```
 
 ## ビルド
+GitHub Pages用に設定をカスタマイズしているのでそっちを使う
 ```bash
-$ npm run build
-$ npm run start
-$ npm run generate
+$ npm run generate:gh-pages
 ```
 
 # メモ
@@ -44,3 +46,4 @@ nuxt.config.jsの中に以下追加。
 
 その他も設定が必要だけど公式で解説してくれてるのでこれ通りやる。  
 https://ja.nuxtjs.org/faq/github-pages/
+
