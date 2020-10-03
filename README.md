@@ -33,3 +33,12 @@ npm i vue-drag-resize
 ## ダークモードが嫌なので止める
 `nuxt.config.js`の`dark`をfalseにする。
 
+## GitHub Pagesで公開するためにgenerate先を`docs`に
+nuxt.config.jsの中でかける  
+以下追加。
+
+```js
+  generate: {
+    dir: 'docs',
+  },
+```
