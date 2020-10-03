@@ -34,11 +34,13 @@ npm i vue-drag-resize
 `nuxt.config.js`の`dark`をfalseにする。
 
 ## GitHub Pagesで公開するためにgenerate先を`docs`に
-nuxt.config.jsの中でかける  
-以下追加。
+nuxt.config.jsの中に以下追加。  
 
 ```js
   generate: {
     dir: 'docs',
   },
 ```
+
+その他も設定が必要だけど公式で解説してくれてるのでこれ通りやる。  
+https://ja.nuxtjs.org/faq/github-pages/
